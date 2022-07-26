@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 16px;
+    font-family: 'Kumbh Sans', sans-serif;
+    --active-dark-blue: hsl(238, 29%, 16%);
+    --active-soft-red: hsl(14, 88%, 65%);
+    --gradient-violet: hsl(273, 75%, 66%);
+    --gradient-blue: hsl(240, 73%, 65%);
+    --dark-question-text: hsl(237, 12%, 33%);
+    --answer-text: hsl(240, 6%, 50%);
+}
+
+body {
+    background: linear-gradient(0deg, var(--gradient-blue) 0, var(--gradient-violet) 100%);
+    min-height: 100vh;
+}
+
+.main-content {
+    height: 70vh;
+    margin: 0 6%;
+    position: absolute;
+    top: 55%;
+    transform: translateY(-50%);
+    background-color: #fff;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image {
+    height: 200px;
+    width: 250px;
+    background-image: url(../images/illustration-woman-online-mobile.svg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -60%);
+    filter: drop-shadow(4px 4px 1px #b71c1c);
+}
+
+.main-title {
+    margin-top: 120px;
+}
+.attribution {
+    position: fixed;
+    bottom: 0;
+}
