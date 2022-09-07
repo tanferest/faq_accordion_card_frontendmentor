@@ -32,6 +32,7 @@ body {
   top: 180px;
   width: 88%;
   min-height: 70vh;
+  max-height: 70vh;
   margin: 0 auto;
   padding: 0 6% 15px 6%;
   background-color: #fff;
@@ -53,6 +54,11 @@ body {
   left: 50%;
   transform: translate(-50%, -60%);
   filter: drop-shadow(0px 30px hsla(273, 85%, 43%, 0.091));
+}
+
+.faq-section {
+  max-height: 90%;
+  overflow: scroll;
 }
 
 .main-title {
